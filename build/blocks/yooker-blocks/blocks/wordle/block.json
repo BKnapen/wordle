@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "yooker-blocks/wordle",
+  "title": "Wordle",
+  "category": "yooker-blocks/games",
+  "description": "Create a Wordle game in your page",
+  "textdomain": "yooker",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#eeeeee"
+    },
+    "rightTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "rightBackgroundColor": {
+      "type": "string",
+      "default": "#5ac85a"
+    },
+    "rightBorderColor": {
+      "type": "string",
+      "default": "#5ac85a"
+    },
+    "isInWordTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "isInWordBackgroundColor": {
+      "type": "string",
+      "default": "#e2cc68"
+    },
+    "isInWordBorderColor": {
+      "type": "string",
+      "default": "#e2cc68"
+    },
+    "wrongTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "wrongBackgroundColor": {
+      "type": "string",
+      "default": "#a1a1a1"
+    },
+    "wrongBorderColor": {
+      "type": "string",
+      "default": "#a1a1a1"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  }
+}

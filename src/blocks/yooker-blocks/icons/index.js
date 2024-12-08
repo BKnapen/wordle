@@ -1,0 +1,1 @@
+export { default as wordle } from './library/wordle'
